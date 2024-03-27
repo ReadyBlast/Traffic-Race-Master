@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50FA75CCB8942956D110617B /* Pods_Traffic_Race_Master.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE204540EB754668758FA530 /* Pods_Traffic_Race_Master.framework */; };
+		972DBA0B2B83A41D00CE51F1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DBA0A2B83A41D00CE51F1 /* GameViewController.swift */; };
+		972DBA0D2B83A42600CE51F1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972DBA0C2B83A42600CE51F1 /* SettingsViewController.swift */; };
+		973B0B952B80E94900DE4C5B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B0B942B80E94900DE4C5B /* InitialViewController.swift */; };
+		975219202BA9C17C0095F7A4 /* AnimationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9752191F2BA9C17C0095F7A4 /* AnimationEngine.swift */; };
+		975CE3042B80E76A0032B590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975CE3032B80E76A0032B590 /* AppDelegate.swift */; };
+		975CE3062B80E76A0032B590 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975CE3052B80E76A0032B590 /* SceneDelegate.swift */; };
+		975CE30D2B80E76D0032B590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975CE30C2B80E76D0032B590 /* Assets.xcassets */; };
+		975CE3102B80E76D0032B590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 975CE30E2B80E76D0032B590 /* LaunchScreen.storyboard */; };
+		975FD1F22BAF15A9008A26CC /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975FD1F12BAF15A9008A26CC /* UIImage+extension.swift */; };
+		9789EA942BAB309700F0BCA9 /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9789EA932BAB309700F0BCA9 /* LeaderboardViewController.swift */; };
+		9789EA972BAB30B600F0BCA9 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9789EA962BAB30B600F0BCA9 /* CustomTableViewCell.swift */; };
+		9789EA992BAB4BCF00F0BCA9 /* CustomTableViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9789EA982BAB4BCF00F0BCA9 /* CustomTableViewCellModel.swift */; };
+		97C326732BAA37CC00A84019 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C326722BAA37CC00A84019 /* SettingsService.swift */; };
+		97C60D032BADB3CB00AB1F0F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C60D022BADB3CB00AB1F0F /* Constants.swift */; };
+		97C60D062BADBEC500AB1F0F /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C60D052BADBEC500AB1F0F /* String+extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61DA8C8341A6EAE219232975 /* Pods-Traffic Race Master.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traffic Race Master.debug.xcconfig"; path = "Target Support Files/Pods-Traffic Race Master/Pods-Traffic Race Master.debug.xcconfig"; sourceTree = "<group>"; };
+		972DBA0A2B83A41D00CE51F1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		972DBA0C2B83A42600CE51F1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		973B0B942B80E94900DE4C5B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		9752191F2BA9C17C0095F7A4 /* AnimationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEngine.swift; sourceTree = "<group>"; };
+		975CE3002B80E76A0032B590 /* Traffic Race Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Race Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		975CE3032B80E76A0032B590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		975CE3052B80E76A0032B590 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		975CE30C2B80E76D0032B590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		975CE30F2B80E76D0032B590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		975CE3112B80E76D0032B590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		975FD1F12BAF15A9008A26CC /* UIImage+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		9789EA932BAB309700F0BCA9 /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		9789EA962BAB30B600F0BCA9 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		9789EA982BAB4BCF00F0BCA9 /* CustomTableViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellModel.swift; sourceTree = "<group>"; };
+		97C326722BAA37CC00A84019 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		97C60D022BADB3CB00AB1F0F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		97C60D052BADBEC500AB1F0F /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		CEF057620F27985E7418839C /* Pods-Traffic Race Master.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traffic Race Master.release.xcconfig"; path = "Target Support Files/Pods-Traffic Race Master/Pods-Traffic Race Master.release.xcconfig"; sourceTree = "<group>"; };
+		FE204540EB754668758FA530 /* Pods_Traffic_Race_Master.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traffic_Race_Master.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975CE2FD2B80E76A0032B590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50FA75CCB8942956D110617B /* Pods_Traffic_Race_Master.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE1F749BBFA6AC2F91A1384 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61DA8C8341A6EAE219232975 /* Pods-Traffic Race Master.debug.xcconfig */,
+				CEF057620F27985E7418839C /* Pods-Traffic Race Master.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D62FC6B63A7E95B5FEE45CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE204540EB754668758FA530 /* Pods_Traffic_Race_Master.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		972DBA052B83A22500CE51F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9789EA982BAB4BCF00F0BCA9 /* CustomTableViewCellModel.swift */,
+				975FD1F32BAF15D1008A26CC /* Utils */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		972DBA062B83A22F00CE51F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				973B0B942B80E94900DE4C5B /* InitialViewController.swift */,
+				972DBA0A2B83A41D00CE51F1 /* GameViewController.swift */,
+				9789EA932BAB309700F0BCA9 /* LeaderboardViewController.swift */,
+				972DBA0C2B83A42600CE51F1 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		975CE2F72B80E76A0032B590 = {
+			isa = PBXGroup;
+			children = (
+				975CE3022B80E76A0032B590 /* Traffic Race Master */,
+				975CE3012B80E76A0032B590 /* Products */,
+				6CE1F749BBFA6AC2F91A1384 /* Pods */,
+				6D62FC6B63A7E95B5FEE45CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		975CE3012B80E76A0032B590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				975CE3002B80E76A0032B590 /* Traffic Race Master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		975CE3022B80E76A0032B590 /* Traffic Race Master */ = {
+			isa = PBXGroup;
+			children = (
+				975FD1F42BAF1646008A26CC /* Views */,
+				97C60D042BADBB4E00AB1F0F /* Supporting Files */,
+				972DBA062B83A22F00CE51F1 /* ViewControllers */,
+				972DBA052B83A22500CE51F1 /* Models */,
+				975CE3032B80E76A0032B590 /* AppDelegate.swift */,
+				975CE3052B80E76A0032B590 /* SceneDelegate.swift */,
+				975CE30C2B80E76D0032B590 /* Assets.xcassets */,
+				975CE30E2B80E76D0032B590 /* LaunchScreen.storyboard */,
+				975CE3112B80E76D0032B590 /* Info.plist */,
+			);
+			path = "Traffic Race Master";
+			sourceTree = "<group>";
+		};
+		975FD1F32BAF15D1008A26CC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9752191F2BA9C17C0095F7A4 /* AnimationEngine.swift */,
+				97C326722BAA37CC00A84019 /* SettingsService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		975FD1F42BAF1646008A26CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9789EA962BAB30B600F0BCA9 /* CustomTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		97C60D042BADBB4E00AB1F0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C60D022BADB3CB00AB1F0F /* Constants.swift */,
+				97C60D052BADBEC500AB1F0F /* String+extension.swift */,
+				975FD1F12BAF15A9008A26CC /* UIImage+extension.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		975CE2FF2B80E76A0032B590 /* Traffic Race Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 975CE3142B80E76D0032B590 /* Build configuration list for PBXNativeTarget "Traffic Race Master" */;
+			buildPhases = (
+				1E44C045337740389E62DBCC /* [CP] Check Pods Manifest.lock */,
+				975CE2FC2B80E76A0032B590 /* Sources */,
+				975CE2FD2B80E76A0032B590 /* Frameworks */,
+				975CE2FE2B80E76A0032B590 /* Resources */,
+				80C75ECA57FCEA7A7729D792 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Traffic Race Master";
+			productName = "Traffic Race Master";
+			productReference = 975CE3002B80E76A0032B590 /* Traffic Race Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		975CE2F82B80E76A0032B590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					975CE2FF2B80E76A0032B590 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 975CE2FB2B80E76A0032B590 /* Build configuration list for PBXProject "Traffic Race Master" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 975CE2F72B80E76A0032B590;
+			productRefGroup = 975CE3012B80E76A0032B590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975CE2FF2B80E76A0032B590 /* Traffic Race Master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		975CE2FE2B80E76A0032B590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975CE3102B80E76D0032B590 /* LaunchScreen.storyboard in Resources */,
+				975CE30D2B80E76D0032B590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E44C045337740389E62DBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Traffic Race Master-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C75ECA57FCEA7A7729D792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Traffic Race Master/Pods-Traffic Race Master-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Traffic Race Master/Pods-Traffic Race Master-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Traffic Race Master/Pods-Traffic Race Master-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		975CE2FC2B80E76A0032B590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C60D032BADB3CB00AB1F0F /* Constants.swift in Sources */,
+				9789EA942BAB309700F0BCA9 /* LeaderboardViewController.swift in Sources */,
+				9789EA992BAB4BCF00F0BCA9 /* CustomTableViewCellModel.swift in Sources */,
+				972DBA0B2B83A41D00CE51F1 /* GameViewController.swift in Sources */,
+				9789EA972BAB30B600F0BCA9 /* CustomTableViewCell.swift in Sources */,
+				975CE3042B80E76A0032B590 /* AppDelegate.swift in Sources */,
+				975FD1F22BAF15A9008A26CC /* UIImage+extension.swift in Sources */,
+				975CE3062B80E76A0032B590 /* SceneDelegate.swift in Sources */,
+				97C60D062BADBEC500AB1F0F /* String+extension.swift in Sources */,
+				973B0B952B80E94900DE4C5B /* InitialViewController.swift in Sources */,
+				97C326732BAA37CC00A84019 /* SettingsService.swift in Sources */,
+				975219202BA9C17C0095F7A4 /* AnimationEngine.swift in Sources */,
+				972DBA0D2B83A42600CE51F1 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		975CE30E2B80E76D0032B590 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				975CE30F2B80E76D0032B590 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		975CE3122B80E76D0032B590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		975CE3132B80E76D0032B590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		975CE3152B80E76D0032B590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DA8C8341A6EAE219232975 /* Pods-Traffic Race Master.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q67CF97W6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Traffic Race Master/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rock.Traffic-Race-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		975CE3162B80E76D0032B590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF057620F27985E7418839C /* Pods-Traffic Race Master.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q67CF97W6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Traffic Race Master/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rock.Traffic-Race-Master";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975CE2FB2B80E76A0032B590 /* Build configuration list for PBXProject "Traffic Race Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975CE3122B80E76D0032B590 /* Debug */,
+				975CE3132B80E76D0032B590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		975CE3142B80E76D0032B590 /* Build configuration list for PBXNativeTarget "Traffic Race Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				975CE3152B80E76D0032B590 /* Debug */,
+				975CE3162B80E76D0032B590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 975CE2F82B80E76A0032B590 /* Project object */;
+}
