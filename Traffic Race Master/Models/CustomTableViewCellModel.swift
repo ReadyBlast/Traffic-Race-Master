@@ -24,13 +24,13 @@ struct CustomTableViewCellModel: Codable {
 }
 
 struct PersistenceManager {
-    func save(from array: [CustomTableViewCellModel]) {
+    static func save(from array: [CustomTableViewCellModel]) {
         let data = try? JSONEncoder().encode(array)
         
         UserDefaults.standard.set(data, forKey: .userInfoKey)
     }
     //
-    func load() -> [CustomTableViewCellModel]? {
+    static func load() -> [CustomTableViewCellModel]? {
         guard let data = UserDefaults.standard.value(forKey: .userInfoKey) as? Data else {
             return nil
         }

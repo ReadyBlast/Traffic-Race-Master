@@ -41,13 +41,13 @@ final class SettingsService: Codable {
     var obstacleImageName: String = "car"
     var difficulty: Double = Double(NumericConstants.one)
     
-    func save(from settings: SettingsService) {
+    static func save(from settings: SettingsService) {
         let data = try? JSONEncoder().encode(settings)
         
         UserDefaults.standard.set(data, forKey: .settingsKey)
     }
     //
-    func load() -> SettingsService? {
+    static func load() -> SettingsService? {
         guard let data = UserDefaults.standard.value(forKey: .settingsKey) as? Data else {
             return nil
         }

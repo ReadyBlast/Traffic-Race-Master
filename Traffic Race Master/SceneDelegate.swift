@@ -20,8 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         window = UIWindow(windowScene: windowScene)
         
-        let dataForCells = PersistenceManager().load() ?? []
-        let settings = SettingsService().load()
+        let dataForCells = PersistenceManager.load() ?? []
+        let settings = SettingsService.load()
         let rootViewController = InitialViewController(leaderboardViewController: LeaderboardViewController(), gameViewController: GameViewController(settings: settings), dataForTableViewArray: dataForCells)
         let navigationController = UINavigationController(rootViewController: rootViewController)
         navigationController.isNavigationBarHidden = true

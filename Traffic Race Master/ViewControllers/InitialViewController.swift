@@ -67,7 +67,8 @@ final class InitialViewController: UIViewController {
          Скрины с логами в консоли приложу
          */
         let startGameAction = UIAction { [weak self] _ in
-            self?.navigationController?.pushViewController(self!.gameViewController, animated: true)
+            guard let self = self else { return }
+            self.navigationController?.pushViewController(self.gameViewController, animated: true)
         }
         let settingsAction = UIAction { [ weak self ]_ in
             self?.navigationController?.pushViewController(SettingsViewController(), animated: true)
@@ -109,6 +110,6 @@ extension InitialViewController: GameControllerDelegate {
     func transferDataForHandling(data: CustomTableViewCellModel) {
         dataForTableViewArray.append(data)
         dataForTableViewArray.sort { $0.score > $1.score }
-        PersistenceManager().save(from: dataForTableViewArray)
+        PersistenceManager.save(from: dataForTableViewArray)
     }
 }
